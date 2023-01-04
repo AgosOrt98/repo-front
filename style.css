@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: white;
+    font-size: 16px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+li :hover{
+    border-bottom: 2px solid black;
+    display: flex;
+}
+
+.navbar-nav{
+    padding: 5px;
+    margin-inline-start: auto;
+    justify-content: space-around;
+}
+
+.nav-link{
+    color: #FFAFBD;
+}
+.presentacion{
+    width: 100%;
+    height: 550px;
+    color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-brillante-rosa-pastel-azul_53876-101933.jpg);
+}
