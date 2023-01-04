@@ -8,12 +8,16 @@
 body{
     background: white;
     font-size: 16px;
-}
-
-.container{
     width: 90%;
     margin: auto;
 }
+
+/*---navegador---*/
+
+/*.container{
+    width: 90%;
+    margin: auto;
+}*/
 
 li :hover{
     border-bottom: 2px solid black;
@@ -29,6 +33,9 @@ li :hover{
 .nav-link{
     color: #FFAFBD;
 }
+
+/*---------------------*/ 
+
 .presentacion{
     width: 100%;
     height: 550px;
@@ -36,6 +43,15 @@ li :hover{
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-brillante-rosa-pastel-azul_53876-101933.jpg);
+    justify-content:center;
+    text-align: center;
+    background: url(fondo4\ \(1\).png) no-repeat center center/cover;
+}
+
+#sobremi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    text-align: center;
 }
